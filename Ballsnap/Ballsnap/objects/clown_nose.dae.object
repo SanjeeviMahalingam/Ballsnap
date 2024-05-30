@@ -1,0 +1,82 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "clown_nose.dae",
+  "identifier": "master3_d_object_model:068895D9-A008-4A71-822D-FCF82AAA7AB6",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "globalScaleFactor": 1,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "clown_nose",
+      "identifier": "mesh:DB0785EB-553C-4541-9F9A-846BF1C0FA85",
+      "animationMask": {
+        "position": true,
+        "rotation": true,
+        "scale": true
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "clown_nose",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:8220BD19-79B4-4548-A883-3453688CD75A",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:17694B1D-30B4-49F9-84FC-A0D41E06CA89",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:B731DA05-8C9C-4FAD-8606-F2F5911C46FE",
+              "isMaterialIdentifierEnabled": true,
+              "surfaceGroupIdentifier": ""
+            }
+          ]
+        },
+        {
+          "modelName": "blend_shapes_model",
+          "identifier": "blend_shapes_model:469418C1-F6AB-4877-8FFB-7C00DF14DAB9"
+        }
+      ]
+    }
+  ]
+}

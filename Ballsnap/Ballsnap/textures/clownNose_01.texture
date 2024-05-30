@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "clownNose_01",
+  "identifier": "texture:F3BFC30F-FFAA-43EB-B42C-3CAEF555DEA5",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ea9039f4ff5b2c90e20d1cefc9ced669",
+  "assetLocator": "textures/clownNose_01.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:36148-ca50e312-2dfe-44c7-bf4e-096f29c10d5e",
+    "textureExportConfig:36149-ca50e312-2dfe-44c7-bf4e-096f29c10d5e",
+    "textureExportConfig:36150-ca50e312-2dfe-44c7-bf4e-096f29c10d5e"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 512,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ea9039f4ff5b2c90e20d1cefc9ced669",
+      "colorCount": 255,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.04439802284769,
+      "pixelsHigh": 512,
+      "pixelsWide": 512
+    }
+  ]
+}

@@ -1,0 +1,2839 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:CAE5EA37-4734-4E38-AE0E-A7FEEADB427E",
+  "id": "29540a81ef885bd3f4708a64ab5924afa9ca8",
+  "revision": "127950d408aa5b067a449689d92ffc36e268fd",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 179
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 33
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:81231-a19974ee-9f00-494b-ae30-cd217b36ccdd"
+    }
+  ],
+  "previousDocumentIds": [
+    "875b0c25d94d4b6c8b017e236c987e8d",
+    "d596ada636044ad0b2f53800f90f09e4",
+    "e28bba47b000493fba2b12695221e4d9",
+    "4f8f9ea8e3c04b9c88272da2b3cf987b",
+    "c0e52483abfe448eb424e1839b8ae570",
+    "ded26dc57718453d9ab2cabf653ce3c6",
+    "f4b30f32730942768e4f986f15f80458",
+    "babb820e50294c9d8bdce0334f3d918f",
+    "663fbbdd81f5491c9ea43982ac6aa293",
+    "bb80ff0842da4c0f86d7ea9f11eb4545",
+    "190d90897f024ac7be2f5511866e9163",
+    "29537a81ef885bd3f4708a64ab5924afa9ca8"
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "sectionFileLocation": "Touch gestures finished project.patches"
+  },
+  "children": [
+    {
+      "modelName": "materials",
+      "identifier": "materials:9A8131A4-AD6E-4A5A-8928-E4329602621D",
+      "children": [
+        {
+          "sectionFileLocation": "materials/clownNose_mat.material"
+        },
+        {
+          "sectionFileLocation": "materials/red.material"
+        },
+        {
+          "sectionFileLocation": "materials/yellow.material"
+        },
+        {
+          "sectionFileLocation": "materials/green.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:D2221060-861B-4587-B408-353C62EE6887",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "gltf0",
+          "identifier": "gltf:8220BD19-79B4-4548-A883-3453688CD75A",
+          "assetLocator": "7969B586-B3EF-4A4F-AC52-D6D1F3B1BC50.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "sectionFileLocation": "Touch gestures finished project.scene"
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:DD7CAB3E-87F9-4C6C-A4E2-7BDC727836FD",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:C02455A5-ABF5-4108-9720-26EEA6085200",
+          "color": "0xff8c72cb"
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:F868DA2A-2FD0-43C9-B9CF-7BDE2C80FB15",
+      "children": [
+        {
+          "modelName": "asset_backed3_d_object_model",
+          "name": "clown_nose",
+          "identifier": "asset_backed3_d_object_model:74A28319-DE1D-4706-BEC2-0036940CEBB1",
+          "assetDataHash": "10dac553d9cfbea8c2764f0326856a39",
+          "assetLocator": "objects/clown_nose.dae",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "10dac553d9cfbea8c2764f0326856a39",
+          "children": [
+            {
+              "sectionFileLocation": "objects/clown_nose.dae.object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:8DE6F544-0067-4073-A771-62DC264EA4A9",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:36234-ca50e312-2dfe-44c7-bf4e-096f29c10d5e"
+        }
+      ]
+    },
+    {
+      "modelName": "components_model",
+      "identifier": "components_model:D11F3CC1-49F5-491E-8B6B-16BD613AC9DD",
+      "children": [
+        {
+          "modelName": "component_model",
+          "name": "03B5D9CD-1DA6-4B8B-8913-14470B5BC0E4",
+          "identifier": "component_model:FD6E6869-6D41-4CA8-A9CE-9698C59BC1FA",
+          "canvasIdentifier": "10038367343215063181",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":\"z\"}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantStringSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:8E068BBF-7227-44B7-B75E-15DDA937EA74"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:DBFB4616-F4E1-4FBC-AA40-B2C008F7CF10",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:E832967B-D41F-4BBB-B9A7-77292FFC4E04",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "8E18F87E-688B-4731-B3EC-77C2219A68B7",
+          "identifier": "component_model:8747A6A4-B768-4704-B96E-34FC58C42850",
+          "canvasIdentifier": "1026995569415077628",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:BACA167B-3207-4419-A556-FC89886EAEAA"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:B260C7DB-F67A-43B7-932F-B9F85727998D",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:5C402218-D958-4C14-ACDA-A61728364ECB",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "40EA5552-B699-4AF7-B6C7-746A286A4A94",
+          "identifier": "component_model:E864188B-FD3D-4062-9CD1-501C78688517",
+          "canvasIdentifier": "1028015907906882510",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":\"x\"}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantStringSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:0BFDB743-825F-4D1B-8D5F-8E09BF4E4C3D"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:ED9365ED-4811-4A1A-A4F3-335B3FCF8EF5",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:6B360715-42E3-41A1-A5DA-97E0121C0ACA",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B077B48F-C8DA-41E4-A16A-2D37DB2AC7CF",
+          "identifier": "component_model:2FE02CE9-92CF-4C93-B56C-F5C7C77C3EEE",
+          "canvasIdentifier": "10470288063170413653",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:0F585467-A1C9-44F6-AB7E-FF264486C31A"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:E3E56ED3-1C0C-4164-85FB-D096ACEE359C",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:EB3E654E-3577-4F81-8A7A-0383F82BF514",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "13AD3499-3786-43CD-85F5-D2D41707E58F",
+          "identifier": "component_model:F90FAE55-DF84-41BC-BDF4-E38F15270140",
+          "canvasIdentifier": "10540228569641699250",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.pointPack",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:7BA12E30-9302-4AFA-8AB0-D1E3ECDAC13B",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "x",
+                  "identifier": "input_port_model:838C6CEE-9C8C-41F2-94A7-3A89E76130CF",
+                  "canvasIdentifier": "10252035061599538261",
+                  "connectedOutputPortIdentifier": "output_port_model:D8E063E5-3E5D-4FAC-B701-294B17FF200B",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "y",
+                  "identifier": "input_port_model:15DD83D9-20CD-4540-A99C-24DB2A92CDED",
+                  "canvasIdentifier": "16810659800727814327",
+                  "connectedOutputPortIdentifier": "output_port_model:5440AB4D-9D17-45D8-A162-5DAF5B82968D",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "z",
+                  "identifier": "input_port_model:D393BF77-2F69-45D0-A311-99E61CD95E31",
+                  "canvasIdentifier": "17241708794075837491",
+                  "connectedOutputPortIdentifier": "output_port_model:E228600F-F203-47C9-AC47-7DC716887890",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:15D754E3-1B6A-4686-B92B-ED199B07038E",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "point",
+                  "identifier": "output_port_model:2927426D-232E-4A41-AACB-E074833909DD",
+                  "canvasIdentifier": "7728491126966128938"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "D9189873-B827-4389-A2A5-0FAB5B4B715D",
+          "identifier": "component_model:2B4C70F2-7360-47A0-85DB-1F014DEFAFC3",
+          "canvasIdentifier": "11980477470197784749",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:633E17B3-EC89-485C-A778-3B401F0997C8"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:2F84E686-9855-4178-A77C-FD99D83F5CF7",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:796D0663-AFBB-47DD-903B-2B9DE2825C81",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "6743DF68-B07F-42E2-97F8-DBF3D8D0032F",
+          "identifier": "component_model:4C92419F-C9DD-4037-A838-823F2AE224F2",
+          "canvasIdentifier": "12342083504837033964",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.facePicker",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:69BED603-95B4-4E84-9D33-4DB11CEB0ACF",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "data",
+                  "identifier": "input_port_model:1B884C0B-34D7-480C-85EF-4ED540C2A64B",
+                  "canvasIdentifier": "13568353189737602524",
+                  "connectedOutputPortIdentifier": "output_port_model:A9235E07-3D80-4F10-B0B3-9B3A8CF9B6C9"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "faceIndex",
+                  "identifier": "input_port_model:A9AE9252-25D8-42E5-8FEB-26FF3E4E1175",
+                  "canvasIdentifier": "10470288063170413653",
+                  "connectedOutputPortIdentifier": "output_port_model:EB3E654E-3577-4F81-8A7A-0383F82BF514",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:6980DB9D-0676-41F2-8416-7EE28853DCB4",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "face",
+                  "identifier": "output_port_model:4CDF90C9-1CFB-46A1-8008-1936AC7FD443",
+                  "canvasIdentifier": "12774320811146904959"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B0BF66C8-801F-4D25-96EB-2ABD1F670D21",
+          "identifier": "component_model:FFABA004-1FF7-4EC8-B6FF-B6AD3CD69B95",
+          "canvasIdentifier": "1318507193854001627",
+          "dataModelIdentifier": "emitter:5EF2D830-ADC6-490A-8C59-4B41240C8796",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"green emitter\"]}",
+          "propertyIdentifier": "particleSystemBirthrate",
+          "type": "builtin.particleSystemBirthrate",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:403E7212-99CA-4408-B5AF-0FBC0D9E361F",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:D8283A44-6AC3-4B40-B936-2894330D42AE",
+                  "canvasIdentifier": "812841537910291732",
+                  "connectedOutputPortIdentifier": "output_port_model:693A98C9-9132-4EE2-A832-96BBCEBB073C",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:2C8EC34A-8C91-490F-8766-30864BF229E5"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "E74CA4DC-CBAA-4E06-9949-C0E2B3B311F5",
+          "identifier": "component_model:1408CF9E-945A-4559-BABA-8BED7E2948BB",
+          "canvasIdentifier": "13206676489347795731",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":[0,0,0]}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantVec3Signal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:2A887346-D362-4F3D-990B-0A90F1A7EA81"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:996CEB33-6B73-4D27-97C9-14EB6DFAB042",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:4FA5387C-E4B7-44A3-8C11-E285AB9A2C32",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "CC4F49AF-6449-4C4A-9714-7068993D96DD",
+          "identifier": "component_model:708A0049-7C7B-4AFE-ABE9-B9EA6704FDFF",
+          "canvasIdentifier": "13280245927230072604",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "parameters": "{\"facetrackername\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\"]}",
+          "propertyIdentifier": "face",
+          "type": "builtin.faceid",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:16D9090A-3B10-4BD7-B60B-EE579191338D",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "face",
+                  "identifier": "input_port_model:A7F5D6C8-4C95-4D62-B7B3-1C49E6AE129E",
+                  "canvasIdentifier": "3480240973953157276",
+                  "connectedOutputPortIdentifier": "output_port_model:4CDF90C9-1CFB-46A1-8008-1936AC7FD443"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:1FD81844-1866-4B63-9E48-EC226976A5AE"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "BC756EAA-2B2E-4088-8446-019157A1B377",
+          "identifier": "component_model:89EA69B7-1062-4593-8B3F-5C5FBE1EE098",
+          "canvasIdentifier": "13425096749999157697",
+          "dataModelIdentifier": "emitter:5EF2D830-ADC6-490A-8C59-4B41240C8796",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"green emitter\"]}",
+          "propertyIdentifier": "particleSystemBirthrate",
+          "type": "builtin.particleSystemBirthrateDelta",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:F2581820-635E-44F7-BA2E-AB3FCE79B55A",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:2B02BFD0-F1F2-4560-9FAD-A0A8E81B13D4",
+                  "canvasIdentifier": "11620069136634052301",
+                  "connectedOutputPortIdentifier": "output_port_model:969B9B2A-EC86-4FBA-849F-A950C3CA6B7E",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:0B9C37DC-A31D-4430-BAE3-63F28577A9E8"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "06267391-9599-458D-80A7-27CD8E863FEE",
+          "identifier": "component_model:D8D379CC-3F29-4A5A-B1B2-872F7E683B0C",
+          "canvasIdentifier": "13564995061311980977",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":\"y\"}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantStringSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:F91425A3-D951-46D8-A644-3062BF0A3EB9"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:B88564DA-FADC-4986-94D1-92E0763C8EB2",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:EB9A7524-FB53-4BCE-955B-306452F8A5B2",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "A1C34612-8A1F-4F8B-B9AC-08E053BAB677",
+          "identifier": "component_model:50820791-4A85-4FFB-90D4-7C80BA9BB7B5",
+          "canvasIdentifier": "13928064246352843500",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\",\"clown_nose.dae\"]}",
+          "propertyIdentifier": "scale",
+          "type": "builtin.sceneObjectScaleX",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:E309E27D-3358-4A8B-9207-979E8BBBCFCF",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:C8D136C7-459C-4F67-AC8D-5F21B0B7A8EE",
+                  "canvasIdentifier": "3189057585657590914",
+                  "connectedOutputPortIdentifier": "output_port_model:C1CCF376-2032-4F72-AEF6-E84F3240A8C1",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:FF556219-79F1-44B7-AD97-6913DD4FDA7A"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "CA0AEB35-87E4-4D60-8AD4-E2A6BAD26F57",
+          "identifier": "component_model:65B31688-AF65-4D1C-B14C-D11FE97945B1",
+          "canvasIdentifier": "1460988560237322869",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:0D37DE93-9ECD-4F72-B962-45BBA9C3B3B9"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:CAD4FEAE-F239-4699-BD99-7C1CD0DE69B0",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:2AF026AC-BB08-4BBE-A70E-53B4A7D73448",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "E9441CF5-71F0-4EE1-A06E-0B7686A0A34B",
+          "identifier": "component_model:E718675A-3250-4ECD-81EC-DB139527B430",
+          "canvasIdentifier": "14718183581897586515",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:EB57950D-D6FB-49B3-B59E-6F005C14CB7E"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:AAE54F66-A7F9-46D5-AB9A-1C4200BCF797",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:EC6788FC-C1B3-40B9-8161-83302B62227F",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "509460E9-D3F6-4B95-AD2B-9DCF8A9CDE23",
+          "identifier": "component_model:002A471D-8D3F-4911-8D4D-7391F35EF280",
+          "canvasIdentifier": "15367269813538671027",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":57.295779513082323}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:9E2A6E0C-EACC-4869-9566-33544980AB1A"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:9A5C21F6-5686-4AD1-99A5-BE8D35C45D60",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:2A36AD54-D5FD-48D8-A86E-DDA53CBA3E37",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "AB8F7E12-A629-4456-9D61-EC1FEF3BABDE",
+          "identifier": "component_model:170E4CBC-D5C4-4732-B644-A30B3DF2F723",
+          "canvasIdentifier": "15584710126111588779",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\",\"clown_nose.dae\"]}",
+          "propertyIdentifier": "scale",
+          "type": "builtin.sceneObjectScaleZ",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:DB0F2551-7B1F-4880-89E5-42D8B2BC99B1",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:F44DC20A-33C7-42BE-B8EB-BA67FA98C550",
+                  "canvasIdentifier": "10397329399913153406",
+                  "connectedOutputPortIdentifier": "output_port_model:43795113-3D04-4119-B5B2-5850C603CF17",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:50CA2052-388A-483C-A24E-F6BB6A60C97B"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "5B7FA685-C8EF-448E-9B27-3932B72C3E73",
+          "identifier": "component_model:861BD56B-0179-4173-A33D-EAE43E183705",
+          "canvasIdentifier": "15801116272361839425",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":57.295779513082323}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:CC61956B-AD04-42D5-9CA3-AC6013E52506"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:D952F61E-6CD6-4483-89CC-CC35A2854E87",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:6D71BF48-AC37-429F-B984-570D11BCDFD5",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "2340CA1F-A54E-410B-897C-B325FC3E82D9",
+          "identifier": "component_model:C03ABF14-9A38-4AC5-B3FD-EA82679AA0F4",
+          "canvasIdentifier": "16880048193943741189",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.faceTracker",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:ED3722CD-64BA-4539-AC9B-5CEE70EB6110"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:8C37DEC1-78EE-48EA-A2A7-434353C7D34E",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "data",
+                  "identifier": "output_port_model:A9235E07-3D80-4F10-B0B3-9B3A8CF9B6C9",
+                  "canvasIdentifier": "7439993415298825427"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "count",
+                  "identifier": "output_port_model:202F9562-3ACE-4E7A-A103-FBDE204C4ED1",
+                  "canvasIdentifier": "8881635161926838128"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "2FC65B80-B771-4ED4-ADA5-CABB454B405E",
+          "identifier": "component_model:048A77FB-5EE3-441C-98AA-B9CD096C51D6",
+          "canvasIdentifier": "16883531603056604255",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.pinchGesture",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:C738B20A-67E5-43AC-8B23-D3DA83B6F3DC",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "reset",
+                  "identifier": "input_port_model:28A973E3-DE99-44E0-A9C5-86F9B3C2E242",
+                  "canvasIdentifier": "6143965371114192029",
+                  "connectedOutputPortIdentifier": "output_port_model:FBDD46EF-D44D-4E04-BF5E-458608785D8B",
+                  "value": ""
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "enabled",
+                  "identifier": "input_port_model:7825F6EB-29B2-4658-A250-210C83EEB715",
+                  "canvasIdentifier": "9386021699910682066",
+                  "connectedOutputPortIdentifier": "output_port_model:F0E18099-DA0B-4003-9B2F-6936A615C24A",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:40318A71-C469-4B49-BD3B-D10E2A2309C9",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "state",
+                  "identifier": "output_port_model:6838B417-F555-43B2-B020-DC7170F12405",
+                  "canvasIdentifier": "739215462777601039"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "scale",
+                  "identifier": "output_port_model:EEAEF660-4AC1-4BAF-BA9C-C3C4548378F0",
+                  "canvasIdentifier": "13639024905938920704"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "6182DBBF-18D6-461B-AABE-A311E2285A8A",
+          "identifier": "component_model:C5EAF4C0-164D-4A2E-8F39-0D803F0B5093",
+          "canvasIdentifier": "16953290941538868546",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":\"true\"}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantBoolSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:9D7F1CD8-0BD9-4BDC-83A4-9CBE7748E940"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:FFC06417-6575-4EA8-9412-825F179B8D9A",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:702DA6F5-1112-4886-BDFB-2E4B466BE0A7",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "043C7534-6AD2-4591-93B3-735BFAC72E1E",
+          "identifier": "component_model:7CF0D0B2-CF9F-48B1-A792-0E9436281AAD",
+          "canvasIdentifier": "17169576928522748782",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.face",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:BC1573E2-0802-4C57-83C1-7702EF430C84",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "face",
+                  "identifier": "input_port_model:EA31A311-2815-48CE-8B9C-4435724245C1",
+                  "canvasIdentifier": "15225238794980412966",
+                  "connectedOutputPortIdentifier": "output_port_model:4CDF90C9-1CFB-46A1-8008-1936AC7FD443"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:2402591D-0E44-4AA7-99A4-B1AA99CEDD4C",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "transform",
+                  "identifier": "output_port_model:3DECA57F-4744-4A83-A612-8E71F533269D",
+                  "canvasIdentifier": "15440909327496654462"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "mouth",
+                  "identifier": "output_port_model:3BA03FBF-61F9-47B9-B4E1-E04264910CAE",
+                  "canvasIdentifier": "13349710377478129505"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "58032F28-E399-4141-85EE-8B7E80DC30A6",
+          "identifier": "component_model:177F026A-F4F5-4263-8E6B-5E447D93F624",
+          "canvasIdentifier": "17816903597095155910",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "propertyIdentifier": "position",
+          "type": "builtin.pointSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:31ABC40C-6780-49D6-96CA-E0A0707A7EB9",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "point",
+                  "identifier": "input_port_model:57BEEE3E-D101-45A7-AA03-D59DDC9675F6",
+                  "canvasIdentifier": "8377549007367867420",
+                  "connectedOutputPortIdentifier": "output_port_model:1ED3CDAB-F439-49E3-845C-53E2B0397AE9",
+                  "value": "(\n    0,\n    0,\n    0\n)"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:41F83369-4658-4C84-B5E8-8E73A194CDC2",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "x",
+                  "identifier": "output_port_model:06AE1FAE-A970-42AC-80D0-812C57444DFA",
+                  "canvasIdentifier": "3768775035919253471"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "y",
+                  "identifier": "output_port_model:14509E76-06CA-4CD0-80FE-077F33B78024",
+                  "canvasIdentifier": "17241137106025945336"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "z",
+                  "identifier": "output_port_model:C3780E73-6FF8-49C3-AD82-DE66E226B2AC",
+                  "canvasIdentifier": "13999039641109350975"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "C422BB87-CA40-4A28-8B3A-C653B33DEFD9",
+          "identifier": "component_model:B1605368-9B15-4BD2-9C65-EF03DE0A7450",
+          "canvasIdentifier": "17962156670253349627",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.binaryScalarAddOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:A160C2B3-27A6-4A8F-9FF6-4509FD36BF14",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "left",
+                  "identifier": "input_port_model:316BC21F-ED65-4F49-8EE1-6CD243DC8299",
+                  "canvasIdentifier": "11911379590765882509",
+                  "connectedOutputPortIdentifier": "output_port_model:EC6788FC-C1B3-40B9-8161-83302B62227F",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "right",
+                  "identifier": "input_port_model:901612DB-51E7-4088-8652-EF65F0F27041",
+                  "canvasIdentifier": "4633584113270067876",
+                  "connectedOutputPortIdentifier": "output_port_model:BC1EB6BD-8274-4376-A3FD-D98FFF24515E",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:0AEB622A-43CA-4436-8E75-F8DE93BCAF2E",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:68C8A8FD-1954-48F3-98F8-4DC2EC95A715",
+                  "canvasIdentifier": "4272914110500974659"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "A8D3425C-BD6A-4D80-8A76-0B00C5DB15A9",
+          "identifier": "component_model:756D936C-6C4F-4395-AA84-A8D5ED6743EB",
+          "canvasIdentifier": "2110198784914551873",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.pointPack",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:22F6F552-8715-463F-BA8D-F6C6771E5A02",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "x",
+                  "identifier": "input_port_model:3891073A-8809-454C-8F44-7E2F658024B9",
+                  "canvasIdentifier": "14287230492492144586",
+                  "connectedOutputPortIdentifier": "output_port_model:68C8A8FD-1954-48F3-98F8-4DC2EC95A715",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "y",
+                  "identifier": "input_port_model:23DF05F9-1AF9-45D4-8F8C-7E7E5893B904",
+                  "canvasIdentifier": "8452462471411648815",
+                  "connectedOutputPortIdentifier": "output_port_model:28B0304E-30A8-4F42-A59C-46EB34171341",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "z",
+                  "identifier": "input_port_model:3685FF19-FF7B-4B7D-8241-9B6BA2263B93",
+                  "canvasIdentifier": "4918868426112088035",
+                  "connectedOutputPortIdentifier": "output_port_model:83249258-4741-431B-B48B-DC57101BEB48",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:12614F0F-6F0F-4FC9-99E7-217D8037CC79",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "point",
+                  "identifier": "output_port_model:1ED3CDAB-F439-49E3-845C-53E2B0397AE9",
+                  "canvasIdentifier": "14071383015096047742"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B0371FB2-AF3E-4428-89D9-156D49E84395",
+          "identifier": "component_model:E61A36F2-DC02-4A29-9A47-7951DDFE1FEA",
+          "canvasIdentifier": "2181778349139521619",
+          "dataModelIdentifier": "emitter:0AF8451C-B3B2-4ABB-BFAD-32E3E8D31ADB",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"red emitter\"]}",
+          "propertyIdentifier": "particleSystemBirthrate",
+          "type": "builtin.particleSystemBirthrate",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:D58F9B7E-F5AA-4871-B7FA-1EB2C7E5DECD",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:4159F570-4406-453E-A36B-16FFEE50A29C",
+                  "canvasIdentifier": "2829018730705192404",
+                  "connectedOutputPortIdentifier": "output_port_model:693A98C9-9132-4EE2-A832-96BBCEBB073C",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:6A5D4F8C-2DD1-4923-B819-8906FB23CD6C"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "24CCAE94-AC42-44EA-8AF7-AD9BDF4744FF",
+          "identifier": "component_model:327DD31E-A58A-44C8-83C2-BFF0DC195DDB",
+          "canvasIdentifier": "2254393684009417815",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.binaryScalarAddOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:FE3DA1BC-E09F-4831-90D5-4E818B9B1A18",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "left",
+                  "identifier": "input_port_model:BAF7832D-2008-4AC4-88C4-AB357B4539BA",
+                  "canvasIdentifier": "9747888713583105562",
+                  "connectedOutputPortIdentifier": "output_port_model:B9752472-C176-4BCE-8909-A880B897342F",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "right",
+                  "identifier": "input_port_model:52D5A8C2-C37A-4270-A13F-4E3AD579D657",
+                  "canvasIdentifier": "10251967513457718503",
+                  "connectedOutputPortIdentifier": "output_port_model:5C402218-D958-4C14-ACDA-A61728364ECB",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:75A7B4AE-E944-4303-8E6A-372F6A189B89",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:83249258-4741-431B-B48B-DC57101BEB48",
+                  "canvasIdentifier": "18032795484716434869"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "1E48BB62-441F-4236-BDB5-53CF4768247F",
+          "identifier": "component_model:28131FE9-C63F-44FA-B602-7ED0D2FE19AF",
+          "canvasIdentifier": "2326927927827642238",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":[142,44]}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantVec2Signal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:A9210418-620E-4988-A719-0909F848D878"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:13934232-BE4E-498D-B3F4-E3C4DB9933D5",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:6E89027A-4CC5-43A6-9DA4-5B248F4EEA99",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "3D5F29CC-2E3F-476B-AA7C-0F91BD146078",
+          "identifier": "component_model:E9096171-C01C-40D1-987B-E922DBBDA485",
+          "canvasIdentifier": "2904421263740517276",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.longPressGesture",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:172F8B6E-2999-4A30-AD2E-AD2DD3716B85",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "enabled",
+                  "identifier": "input_port_model:ADF60EEF-5400-46E5-9639-33F8B71223FB",
+                  "canvasIdentifier": "16953290941538868546",
+                  "connectedOutputPortIdentifier": "output_port_model:702DA6F5-1112-4886-BDFB-2E4B466BE0A7",
+                  "value": "true"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:81051B93-D871-456C-904F-A9B029944708",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "state",
+                  "identifier": "output_port_model:BDD22067-1EB7-4C06-9F38-F43A49266CF1",
+                  "canvasIdentifier": "12125591560270932889"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "position",
+                  "identifier": "output_port_model:ED37AABF-BA1F-4A62-9B0D-DF6F6089774F",
+                  "canvasIdentifier": "17168266083857506953"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "E902BC73-3A74-49A5-97F0-CF5F86FA1415",
+          "identifier": "component_model:B14BE270-A0BF-4BCB-8A60-B92D8089A5B2",
+          "canvasIdentifier": "2974369531394700334",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.shaders.vectorSwizzler",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:36592AB6-74F1-4454-8DB1-C90E1D6CA3BC",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "in0",
+                  "identifier": "input_port_model:6079D77A-251B-449F-98D1-3BE6E77833CC",
+                  "canvasIdentifier": "3768741985148566904",
+                  "connectedOutputPortIdentifier": "output_port_model:F5377392-D1FD-4890-8725-CB526094E108",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "in1",
+                  "identifier": "input_port_model:25EDBEAC-0E9B-4E76-99B2-AA0F7C65F8B8",
+                  "canvasIdentifier": "10038367343215063181",
+                  "connectedOutputPortIdentifier": "output_port_model:E832967B-D41F-4BBB-B9A7-77292FFC4E04",
+                  "value": "z"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:2345CAC8-6B80-4825-9E79-A322A3B76F4F",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "out0",
+                  "identifier": "output_port_model:B9752472-C176-4BCE-8909-A880B897342F",
+                  "canvasIdentifier": "12557057856536880887"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "DB344F83-5212-41E1-9489-3DA8734AC748",
+          "identifier": "component_model:91F79191-C23B-4F68-8ABA-09F8496046C4",
+          "canvasIdentifier": "2974517758551556903",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.binaryScalarMulOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:CEACB800-BC39-4187-918A-C3372744F7C6",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "left",
+                  "identifier": "input_port_model:DFC80583-6467-41D1-A41B-F82BCA8F8308",
+                  "canvasIdentifier": "11764461164718164170",
+                  "connectedOutputPortIdentifier": "output_port_model:866E3FB8-AAB5-4EBA-A203-CA5B7828A342",
+                  "value": "1"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "right",
+                  "identifier": "input_port_model:484B8D93-73A5-4821-9652-A3A0D4428D96",
+                  "canvasIdentifier": "9387829641971185408",
+                  "connectedOutputPortIdentifier": "output_port_model:F0278E35-F46E-4E49-8393-E84598348D0C",
+                  "value": "57.29577951308232"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:256B9E82-BB16-4374-B139-AB9EE771858D",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:788E6E5B-CB01-48F9-BBD7-26F89CF68CFD",
+                  "canvasIdentifier": "12199720011913500285"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "F19C30D5-76C2-4F17-8620-B515C5C7ADD0",
+          "identifier": "component_model:C98F1ABF-981C-4398-91F5-7B0A8870D24A",
+          "canvasIdentifier": "3192039327047347677",
+          "dataModelIdentifier": "emitter:1C622700-F2AE-4670-BA65-EBEADA3DD460",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"yellow emitter\"]}",
+          "propertyIdentifier": "particleSystemBirthrate",
+          "type": "builtin.particleSystemBirthrateDelta",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:7F4265C8-9FAC-432A-922A-40E2B0E9BB6D",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:97AE0034-0D66-45A0-9442-1CD994193213",
+                  "canvasIdentifier": "5569482247806609486",
+                  "connectedOutputPortIdentifier": "output_port_model:51504510-D2E9-4713-AAF0-8F1091C04C36",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:EAA49586-DBB4-4174-88C1-7F23648928F9"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "D46BF85F-CE33-4FA3-AA4B-DA4C33CF5E63",
+          "identifier": "component_model:534768B2-7685-4CD6-A5CB-BF4A84606A39",
+          "canvasIdentifier": "3985309068571344377",
+          "dataModelIdentifier": "emitter:0AF8451C-B3B2-4ABB-BFAD-32E3E8D31ADB",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"red emitter\"]}",
+          "propertyIdentifier": "particleSystemBirthrate",
+          "type": "builtin.particleSystemBirthrateDelta",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:CF3EC308-3047-4F66-ADC6-DD26F2A37A93",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:2DB59A68-1F29-49E8-A5EF-312684921EFB",
+                  "canvasIdentifier": "17601322309421454609",
+                  "connectedOutputPortIdentifier": "output_port_model:2AF026AC-BB08-4BBE-A70E-53B4A7D73448",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:34B605C7-C625-423C-A3D5-7589F338024A"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "0276C6D4-F5A9-4C5C-AC79-99DFF8DED5E1",
+          "identifier": "component_model:A91824F7-DFC7-441C-B163-58D5DC13A8DA",
+          "canvasIdentifier": "4273412887384810708",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.binaryScalarAddOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:046E835D-079F-4178-8256-DB247D08D38B",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "left",
+                  "identifier": "input_port_model:80D79494-D1F9-4E97-9D71-68B6B4229C77",
+                  "canvasIdentifier": "16879736226032906400",
+                  "connectedOutputPortIdentifier": "output_port_model:2CAF5FE2-5AAD-4181-851C-4442CE84E795",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "right",
+                  "identifier": "input_port_model:C0D1D891-4ABB-4C93-A862-373E92C15530",
+                  "canvasIdentifier": "11404878598329743004",
+                  "connectedOutputPortIdentifier": "output_port_model:494033CE-9CCB-4DAA-9B0E-AF987289E0C9",
+                  "value": "0.015"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:47C00FED-1B14-45DB-AF92-234EC37C5FBB",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:28B0304E-30A8-4F42-A59C-46EB34171341",
+                  "canvasIdentifier": "5494876969882415710"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "C9E4AB3E-769E-4933-8B5A-DCDBE66B8AE4",
+          "identifier": "component_model:520F25C1-A8F6-4565-A1E5-EEAB2EC93D17",
+          "canvasIdentifier": "4557878677062007729",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.transformSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:95156B58-F422-4C1B-839F-F9A4F2E34072",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "transform",
+                  "identifier": "input_port_model:C41F66A6-CD29-4C94-9219-5AF583D0BB70",
+                  "canvasIdentifier": "17672402959666815035",
+                  "connectedOutputPortIdentifier": "output_port_model:3DECA57F-4744-4A83-A612-8E71F533269D"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:4191BE6D-8398-48E4-B2DC-856E13260612",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "x",
+                  "identifier": "output_port_model:2E3D3DD0-2AA2-4E79-85C4-AD8FC32D7D24",
+                  "canvasIdentifier": "4705694997535385876"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "y",
+                  "identifier": "output_port_model:9F9717A7-046F-4CB9-9983-651DD80452D1",
+                  "canvasIdentifier": "11548189620683483986"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "z",
+                  "identifier": "output_port_model:E80F962F-3C72-4579-951A-F78A310E2C69",
+                  "canvasIdentifier": "21944437824231819"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "scaleX",
+                  "identifier": "output_port_model:D8E063E5-3E5D-4FAC-B701-294B17FF200B",
+                  "canvasIdentifier": "16090943059600222676"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "scaleY",
+                  "identifier": "output_port_model:5440AB4D-9D17-45D8-A162-5DAF5B82968D",
+                  "canvasIdentifier": "13783786509058991581"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "scaleZ",
+                  "identifier": "output_port_model:E228600F-F203-47C9-AC47-7DC716887890",
+                  "canvasIdentifier": "16090167343421353433"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "rotationX",
+                  "identifier": "output_port_model:339DEF3D-EF90-4B41-B8D3-E39F5671F559",
+                  "canvasIdentifier": "18324349668522187495"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "rotationY",
+                  "identifier": "output_port_model:866E3FB8-AAB5-4EBA-A203-CA5B7828A342",
+                  "canvasIdentifier": "16521213412288664443"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "rotationZ",
+                  "identifier": "output_port_model:4DEA2EE4-9558-4525-9C72-AEA89E669629",
+                  "canvasIdentifier": "8449832086709328186"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "AA6749E2-9623-4DD2-B523-005DAEDF0087",
+          "identifier": "component_model:B95834FB-967E-4159-BEA8-D20CEE498C05",
+          "canvasIdentifier": "4632575474364603980",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":[46,28]}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantVec2Signal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:7233E7D8-AAD7-4CA5-BA37-0D0A2959485D"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:B684B019-6CDD-4337-AC8D-78EA85E34831",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:932BF4FE-2E29-4944-8770-633C80FEC14C",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "DEF11832-D6C1-401E-A556-570047947E18",
+          "identifier": "component_model:4D696FFA-DE55-4E0E-A53F-487B2358A7EB",
+          "canvasIdentifier": "4992242802640135768",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.nose",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:5C870381-7CF4-4E8E-BAE1-3B4E307AF31A",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "face",
+                  "identifier": "input_port_model:A9DF79D3-825C-468F-B218-980B0D89EAE8",
+                  "canvasIdentifier": "12340013528744892442",
+                  "connectedOutputPortIdentifier": "output_port_model:4CDF90C9-1CFB-46A1-8008-1936AC7FD443"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:EE686A76-55B7-4DF0-A2D9-C1D9A7F3CDDB",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "bridge",
+                  "identifier": "output_port_model:BECBA262-85EB-41FA-9078-59A18904F19E",
+                  "canvasIdentifier": "12341863584088905488"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "leftNostril",
+                  "identifier": "output_port_model:75728F48-223A-4128-8E66-5C289A61EA4E",
+                  "canvasIdentifier": "16159251558550397349"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "rightNostril",
+                  "identifier": "output_port_model:5CD49C61-313E-4AC1-893E-E398BF1B05FC",
+                  "canvasIdentifier": "6434406070703571714"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "tip",
+                  "identifier": "output_port_model:F5377392-D1FD-4890-8725-CB526094E108",
+                  "canvasIdentifier": "9965543576434340261"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "DDBC527B-22B4-497F-B751-F8B924948004",
+          "identifier": "component_model:06D4691F-9994-4684-9E01-593F90F18986",
+          "canvasIdentifier": "5352622510720956812",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\",\"clown_nose.dae\"]}",
+          "propertyIdentifier": "scale",
+          "type": "builtin.sceneObjectScaleY",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:14CE318C-B6BA-4719-BAF4-261C51DFDC28",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:0244F324-B423-43DB-A41B-57EA17685A43",
+                  "canvasIdentifier": "6432410512183620635",
+                  "connectedOutputPortIdentifier": "output_port_model:FA6FE102-B0E9-4526-9BFC-EA1F8EC41229",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:591C9172-4B95-42C7-98B7-F264E8D90C77"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B1BB9CFF-1CFE-4F02-B46B-9676149D6F4F",
+          "identifier": "component_model:7A744116-7538-4ED1-B975-C37713FB6431",
+          "canvasIdentifier": "5425153628105229263",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "propertyIdentifier": "scale",
+          "type": "builtin.pointSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:A58EDF2B-9ACB-4CE6-B141-31706FD9528C",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "point",
+                  "identifier": "input_port_model:DC72147D-0F94-4915-AB05-303EF5D1B3DD",
+                  "canvasIdentifier": "11909975678038811894",
+                  "connectedOutputPortIdentifier": "output_port_model:7AEA9642-AC5B-4652-B348-ED9CB02B43F3",
+                  "value": "(\n    0,\n    0,\n    0\n)"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:E33639FC-AFDF-4A55-84E3-CDE5F3B3C4B7",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "x",
+                  "identifier": "output_port_model:C1CCF376-2032-4F72-AEF6-E84F3240A8C1",
+                  "canvasIdentifier": "13350318462776778150"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "y",
+                  "identifier": "output_port_model:FA6FE102-B0E9-4526-9BFC-EA1F8EC41229",
+                  "canvasIdentifier": "4487903277585952428"
+                },
+                {
+                  "modelName": "output_port_model",
+                  "name": "z",
+                  "identifier": "output_port_model:43795113-3D04-4119-B5B2-5850C603CF17",
+                  "canvasIdentifier": "8525227313263914596"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B73E4F97-6297-43B6-920F-A6D22FF96EA7",
+          "identifier": "component_model:DFE6D259-DB46-4AB8-A6E2-B8AAED837BC3",
+          "canvasIdentifier": "5713962861022490347",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.pointPack",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:FF23E515-2628-4223-BBA3-48A825D5226F",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "x",
+                  "identifier": "input_port_model:CD745E3C-B466-4B07-9435-5F1F344CD8EF",
+                  "canvasIdentifier": "6577800267875408220",
+                  "connectedOutputPortIdentifier": "output_port_model:EEAEF660-4AC1-4BAF-BA9C-C3C4548378F0",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "y",
+                  "identifier": "input_port_model:CD0ED019-BB6F-433B-9984-F99AD1A5A14F",
+                  "canvasIdentifier": "8379597304258256007",
+                  "connectedOutputPortIdentifier": "output_port_model:EEAEF660-4AC1-4BAF-BA9C-C3C4548378F0",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "z",
+                  "identifier": "input_port_model:B26D79E1-C94D-40E8-8F5E-9631EE8D947D",
+                  "canvasIdentifier": "16807640937917511158",
+                  "connectedOutputPortIdentifier": "output_port_model:EEAEF660-4AC1-4BAF-BA9C-C3C4548378F0",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:C2EDC289-A9DD-43B7-A8A8-065494962135",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "point",
+                  "identifier": "output_port_model:7AEA9642-AC5B-4652-B348-ED9CB02B43F3",
+                  "canvasIdentifier": "16883697985372576663"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "E871D210-293E-420D-9099-8935F72F1EEA",
+          "identifier": "component_model:2D88B8C6-5C2E-4415-9B59-A476F0CD2677",
+          "canvasIdentifier": "5783424555846769179",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:87DED702-BC0A-4AD0-A3E8-0095E182C56A"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:D28491EE-26CC-4A84-99C6-53FEB59BAFE3",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:51504510-D2E9-4713-AAF0-8F1091C04C36",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "4336D213-7558-4429-989E-8B0F4B6A2F74",
+          "identifier": "component_model:78213FA2-831B-44D1-B96B-B2053A88A9BA",
+          "canvasIdentifier": "6143965371114192029",
+          "dataModelIdentifier": "",
+          "parameters": "{\"unused\":\"false\"}",
+          "propertyIdentifier": "",
+          "type": "builtin.triggerStub",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:91EB63EF-0831-414C-9D1E-CB5A14F8527A"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:8C07A4F7-2D09-4F28-8B3B-44298CCC8D18",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:FBDD46EF-D44D-4E04-BF5E-458608785D8B",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "C84F57EA-98CF-4544-80E3-E30F1A1F3266",
+          "identifier": "component_model:41C25F28-D49A-4092-B3A4-AD55D44FEBC6",
+          "canvasIdentifier": "6650740582100054317",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0.014999999999999999}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:E09A56B7-3DF4-49BF-BD24-9C93784AC4AC"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:EDBBEAFF-B522-4FBB-BBEE-18A5955501AB",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:494033CE-9CCB-4DAA-9B0E-AF987289E0C9",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "3DC9CACB-74F9-4B15-B8F8-0C050CFCB767",
+          "identifier": "component_model:A7169721-9887-4328-B42F-024C39ABE652",
+          "canvasIdentifier": "668495399531999715",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\",\"clown_nose.dae\"]}",
+          "propertyIdentifier": "position",
+          "type": "builtin.sceneObjectPositionZ",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:6113FC9D-BAF3-4C4F-9609-A9BA90DBBBF0",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:42E1DFDB-D5FF-4B01-A7D9-F8BDAC5C1DF2",
+                  "canvasIdentifier": "17243334484613490553",
+                  "connectedOutputPortIdentifier": "output_port_model:C3780E73-6FF8-49C3-AD82-DE66E226B2AC",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:1D2D5465-89A7-42D9-860A-C09E4592C0FD"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "44CB5ED6-190F-4E04-9D25-CC153C173B56",
+          "identifier": "component_model:872E4CF5-6DA4-41AF-8BB2-9E00CAB7B5EB",
+          "canvasIdentifier": "670748721973338940",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":10}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:DF300653-B85E-410A-A49D-2A890E5846D5"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:7013B9EF-44D0-4771-80DC-F874A9D6C27F",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:FCD07157-D752-4888-8266-F2C364B0E52F",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "C3FA890A-2C52-4C95-8393-9465752F295E",
+          "identifier": "component_model:26AA8EB2-A3E9-4849-9669-3C8007A1DDF5",
+          "canvasIdentifier": "7152826304584312248",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.shaders.vectorSwizzler",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:D4023209-3C27-4729-8D8E-21A0CB9481DE",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "in0",
+                  "identifier": "input_port_model:F4279B3C-CC7F-4642-9D08-4A19484EE3DD",
+                  "canvasIdentifier": "9316031649178472161",
+                  "connectedOutputPortIdentifier": "output_port_model:F5377392-D1FD-4890-8725-CB526094E108",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "in1",
+                  "identifier": "input_port_model:D1E97D5B-A2C0-432A-96D2-B9650671069C",
+                  "canvasIdentifier": "1028015907906882510",
+                  "connectedOutputPortIdentifier": "output_port_model:6B360715-42E3-41A1-A5DA-97E0121C0ACA",
+                  "value": "x"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:72725159-6649-4409-8642-104129A358AE",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "out0",
+                  "identifier": "output_port_model:BC1EB6BD-8274-4376-A3FD-D98FFF24515E",
+                  "canvasIdentifier": "14648890299353334165"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "D5DB8650-B409-4791-A5F9-BBE5D8F7F6AD",
+          "identifier": "component_model:9D5BE703-0A7E-4C7B-A8C1-B4DD051B778D",
+          "canvasIdentifier": "7155014962981394790",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.shaders.vectorSwizzler",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:928C616C-C783-4451-8FEB-3075C1DCEFB4",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "in0",
+                  "identifier": "input_port_model:47AE9BEA-379A-432C-8845-216C0923DC92",
+                  "canvasIdentifier": "6504523488051656441",
+                  "connectedOutputPortIdentifier": "output_port_model:F5377392-D1FD-4890-8725-CB526094E108",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "in1",
+                  "identifier": "input_port_model:5AD5F769-CBCD-4A4C-ACF0-7B9F7AC77A07",
+                  "canvasIdentifier": "13564995061311980977",
+                  "connectedOutputPortIdentifier": "output_port_model:EB9A7524-FB53-4BCE-955B-306452F8A5B2",
+                  "value": "y"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:F4FC3D58-50BD-44DB-AD16-B021DE4917F6",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "out0",
+                  "identifier": "output_port_model:2CAF5FE2-5AAD-4181-851C-4442CE84E795",
+                  "canvasIdentifier": "7443916816351959546"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B04EE6FC-A997-45F8-B0F1-3B58AF6C0156",
+          "identifier": "component_model:F28AFAE9-8B7A-48B8-A00E-0D3DB268F6D7",
+          "canvasIdentifier": "7441676763141471947",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.binaryScalarMulOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:E8145B13-5CA3-49E5-B4AC-74203DCEF69B",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "left",
+                  "identifier": "input_port_model:615AE296-6DD4-4CA6-8CA9-C7E185F46C27",
+                  "canvasIdentifier": "11044699352836978899",
+                  "connectedOutputPortIdentifier": "output_port_model:4DEA2EE4-9558-4525-9C72-AEA89E669629",
+                  "value": "1"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "right",
+                  "identifier": "input_port_model:C1EA6FA3-3D1E-44A5-86BB-BBA5D18F546D",
+                  "canvasIdentifier": "15367269813538671027",
+                  "connectedOutputPortIdentifier": "output_port_model:2A36AD54-D5FD-48D8-A86E-DDA53CBA3E37",
+                  "value": "57.29577951308232"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:9112A19F-AD3E-486F-A2DC-01DC7FB22F3F",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:03ECDC38-A7C1-4C2C-9FCF-57FA4A9AE969",
+                  "canvasIdentifier": "17387951116356616098"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "087773CC-CBB3-4C85-B302-4D128C5A564F",
+          "identifier": "component_model:3270CD8A-0BC4-409D-86EE-75CD02E2392F",
+          "canvasIdentifier": "7944557380189781549",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\",\"clown_nose.dae\"]}",
+          "propertyIdentifier": "position",
+          "type": "builtin.sceneObjectPositionX",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:258DDFBC-DCCC-41CB-9D26-C9D73F91121B",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:DA9CB08C-9FDF-49DA-AE5B-BE320A6C69A0",
+                  "canvasIdentifier": "16378227528567735993",
+                  "connectedOutputPortIdentifier": "output_port_model:06AE1FAE-A970-42AC-80D0-812C57444DFA",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:01AAE4D1-16D6-4CA1-B3CF-FB5B37A488B1"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "E5E30F8D-47B5-46A1-9643-942A7B583D9A",
+          "identifier": "component_model:E550DE3C-3C2B-46B4-B929-55E19D396B8A",
+          "canvasIdentifier": "813947136505270437",
+          "dataModelIdentifier": "emitter:1C622700-F2AE-4670-BA65-EBEADA3DD460",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"yellow emitter\"]}",
+          "propertyIdentifier": "particleSystemBirthrate",
+          "type": "builtin.particleSystemBirthrate",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:04730951-F05C-46DC-8C70-CE22A87D7FA2",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:D4B382DF-5255-485E-ADBC-FD4D91C4420D",
+                  "canvasIdentifier": "12702758615819942332",
+                  "connectedOutputPortIdentifier": "output_port_model:693A98C9-9132-4EE2-A832-96BBCEBB073C",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:0B3ACBF2-9E76-4631-9961-F19A1DA8A6BB"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "4711BE3A-477E-46EA-88E4-8F5532B516F3",
+          "identifier": "component_model:92E6184A-6512-448D-8485-BB41BBB9D114",
+          "canvasIdentifier": "8448784085811811832",
+          "dataModelIdentifier": "",
+          "propertyIdentifier": "",
+          "type": "builtin.IfThenElseOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:CA1D9C2D-AAB0-4B17-9804-9701AE9FDC3C",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "condition",
+                  "identifier": "input_port_model:C93B248A-56C7-4D19-98F7-A3AA6F7A0279",
+                  "canvasIdentifier": "3264202362256413284",
+                  "connectedOutputPortIdentifier": "output_port_model:BDD22067-1EB7-4C06-9F38-F43A49266CF1",
+                  "value": "true"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "then",
+                  "identifier": "input_port_model:86D5B59B-445D-4A19-9416-5F01C1F1B848",
+                  "canvasIdentifier": "670748721973338940",
+                  "connectedOutputPortIdentifier": "output_port_model:FCD07157-D752-4888-8266-F2C364B0E52F",
+                  "value": "10"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "else",
+                  "identifier": "input_port_model:E87A31DD-4407-42BD-9452-79872521D902",
+                  "canvasIdentifier": "11980477470197784749",
+                  "connectedOutputPortIdentifier": "output_port_model:796D0663-AFBB-47DD-903B-2B9DE2825C81",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:18EF8FA2-5567-4490-BC7A-6130225292BF",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:693A98C9-9132-4EE2-A832-96BBCEBB073C",
+                  "canvasIdentifier": "8161003487004093890"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B7CCBA39-7C65-42FA-811E-559CF085A63D",
+          "identifier": "component_model:4B9151AD-516D-450E-88D4-943CBEC0263F",
+          "canvasIdentifier": "8523660537982535401",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.binaryScalarMulOperator",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:A4162839-3684-4B98-A6FD-4F6AB42A1E47",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "left",
+                  "identifier": "input_port_model:4D93C62F-E495-4693-B44D-23F1F391CE8D",
+                  "canvasIdentifier": "14646934798708422277",
+                  "connectedOutputPortIdentifier": "output_port_model:339DEF3D-EF90-4B41-B8D3-E39F5671F559",
+                  "value": "1"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "right",
+                  "identifier": "input_port_model:75B5598A-A2B5-471B-A36A-9309E168B44E",
+                  "canvasIdentifier": "15801116272361839425",
+                  "connectedOutputPortIdentifier": "output_port_model:6D71BF48-AC37-429F-B984-570D11BCDFD5",
+                  "value": "57.29577951308232"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:C487724F-36A5-4A60-987C-B7225FFAC591",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "result",
+                  "identifier": "output_port_model:FE179D9C-E5AF-4A88-979A-F9A4B4E674D4",
+                  "canvasIdentifier": "3910589205833719667"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "B1E3721C-87A4-4D11-8B54-C6843511D553",
+          "identifier": "component_model:79E57B51-AE6A-4387-9DC7-F2ECB3A01E08",
+          "canvasIdentifier": "8596350993560723928",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.pointPack",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:FD8F78D1-F1CC-44E1-B095-867D461FFC4D",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "x",
+                  "identifier": "input_port_model:863C258F-43E0-494A-A32E-814F022F7EC4",
+                  "canvasIdentifier": "13350491537044394672",
+                  "connectedOutputPortIdentifier": "output_port_model:FE179D9C-E5AF-4A88-979A-F9A4B4E674D4",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "y",
+                  "identifier": "input_port_model:C5F5ED14-44C7-4F54-9255-0E44084518F2",
+                  "canvasIdentifier": "6359583948617846103",
+                  "connectedOutputPortIdentifier": "output_port_model:788E6E5B-CB01-48F9-BBD7-26F89CF68CFD",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "z",
+                  "identifier": "input_port_model:554EFC26-BAE0-4BEA-9C9D-AD203935D0A6",
+                  "canvasIdentifier": "16376584598208072144",
+                  "connectedOutputPortIdentifier": "output_port_model:03ECDC38-A7C1-4C2C-9FCF-57FA4A9AE969",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:5C0689FE-741C-4875-8E0C-D336893E8552",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "point",
+                  "identifier": "output_port_model:D41AC5F1-53E5-45AC-AD79-2F36C84932C3",
+                  "canvasIdentifier": "6504082777561423351"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "D8DD499E-F62D-43A9-BDE1-4B9217E8D54E",
+          "identifier": "component_model:92F18ECD-8FDE-4A2F-B3E2-DC9F1756B86E",
+          "canvasIdentifier": "8813293127599314110",
+          "dataModelIdentifier": "facetracker:406B766C-7230-4EC3-8728-5C34C871FBF3",
+          "propertyIdentifier": "face",
+          "type": "builtin.pointPack",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:B5365513-896F-4C99-A80C-21BCFE3526CF",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "x",
+                  "identifier": "input_port_model:97837A7B-BAA8-4F62-A40C-575DBEACB8C0",
+                  "canvasIdentifier": "4846484212674202927",
+                  "connectedOutputPortIdentifier": "output_port_model:2E3D3DD0-2AA2-4E79-85C4-AD8FC32D7D24",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "y",
+                  "identifier": "input_port_model:100D787E-3CB3-4BB3-BFD3-1BA0B3C1E9F5",
+                  "canvasIdentifier": "238376076751111142",
+                  "connectedOutputPortIdentifier": "output_port_model:9F9717A7-046F-4CB9-9983-651DD80452D1",
+                  "value": "0"
+                },
+                {
+                  "modelName": "input_port_model",
+                  "name": "z",
+                  "identifier": "input_port_model:48699562-2B96-4FEC-A454-7E049308DA18",
+                  "canvasIdentifier": "6002288180851769999",
+                  "connectedOutputPortIdentifier": "output_port_model:E80F962F-3C72-4579-951A-F78A310E2C69",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:2E8904EB-FFDA-484E-A8E4-C02EA7440844",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "point",
+                  "identifier": "output_port_model:B1BB3F02-F7D8-4702-AE4B-2B7F1BB7BAAC",
+                  "canvasIdentifier": "14865051234131866080"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "F684D260-F607-433E-9981-E96BC02D0DA4",
+          "identifier": "component_model:5809668C-B99B-40C6-B8DE-5135F4FAC98A",
+          "canvasIdentifier": "8956187797036945407",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":[0,0,0]}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantVec3Signal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:681A472C-D097-4374-9488-F0674AD62419"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:D6B656C6-2903-49C6-825C-9C81334A9194",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:B3C1CD26-96D3-4936-AAE3-49CF18A788E8",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "659E7E83-604C-404A-9AA9-940E9C69B581",
+          "identifier": "component_model:F33E4B01-61E7-47BE-9A95-41EBC3237653",
+          "canvasIdentifier": "9101740734144939047",
+          "dataModelIdentifier": "master3_d_object_model:0EB7C858-DD74-4C58-9E42-7C94938FA19A",
+          "parameters": "{\"names\":[\"Device\",\"Camera\",\"Focal Distance\",\"facetracker0\",\"clown_nose.dae\"]}",
+          "propertyIdentifier": "position",
+          "type": "builtin.sceneObjectPositionY",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:16D58CD9-505D-44D0-A9A8-BCB22EF3C071",
+              "children": [
+                {
+                  "modelName": "input_port_model",
+                  "name": "signal",
+                  "identifier": "input_port_model:178AB409-B468-40AA-95A3-AAC346750760",
+                  "canvasIdentifier": "5638529778034188134",
+                  "connectedOutputPortIdentifier": "output_port_model:14509E76-06CA-4CD0-80FE-077F33B78024",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:C79AD785-B570-41B6-A656-4F0ABA8184DC"
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "2490FF6A-42FD-4A4A-B59B-C82F46CAE539",
+          "identifier": "component_model:AE713EA3-A2F0-4107-BCBB-0321EBA773B9",
+          "canvasIdentifier": "9173445197596492778",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":0}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:FD00FDE9-2792-470D-8D85-AC6FE2A76B2C"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:BF7B7A18-5BEB-42FE-B754-3C296161175C",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:969B9B2A-EC86-4FBA-849F-A950C3CA6B7E",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "9AA27B84-361B-4600-9342-DAD77D1B061B",
+          "identifier": "component_model:7FF42194-DCC1-47E6-8A52-38A65DE01D5C",
+          "canvasIdentifier": "9386021699910682066",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":\"true\"}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantBoolSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:3EDE4AB7-0D43-4B3A-B03F-3380A1539EAB"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:67FAF58F-B24A-4342-9571-86ECE1EE9141",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:F0E18099-DA0B-4003-9B2F-6936A615C24A",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "component_model",
+          "name": "0BF92B75-79F6-4ED8-ABFA-8A047ECA1064",
+          "identifier": "component_model:1FF51A5E-323B-4495-B922-A940055CA685",
+          "canvasIdentifier": "9387829641971185408",
+          "dataModelIdentifier": "",
+          "parameters": "{\"value\":57.295779513082323}",
+          "propertyIdentifier": "",
+          "type": "builtin.constantScalarSignal",
+          "children": [
+            {
+              "modelName": "input_ports_model",
+              "name": "input_ports_model0",
+              "identifier": "input_ports_model:18F5D3C6-6A92-417D-AE5F-A62ED05F0CEA"
+            },
+            {
+              "modelName": "output_ports_model",
+              "name": "output_ports_model0",
+              "identifier": "output_ports_model:0A92A81E-A255-49DE-8299-3E46544B1AC7",
+              "children": [
+                {
+                  "modelName": "output_port_model",
+                  "name": "signal",
+                  "identifier": "output_port_model:F0278E35-F46E-4E49-8393-E84598348D0C",
+                  "canvasIdentifier": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:EF183425-4574-419E-B5B7-CE4A94B71FF1",
+      "additionalEnabledChanges": [],
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 2,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": false,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectPbrClearcoatMaterialExtension": false,
+      "effectPbrIorMaterialExtension": false,
+      "effectPbrSheenMaterialExtension": false,
+      "effectPbrSpecularMaterialExtension": false,
+      "effectPbrTransmissionMaterialExtension": false,
+      "effectRecordingFromMic": false,
+      "effectUses3DModelAssets": false,
+      "effectUses4KTextures": false,
+      "effectUsesAheadOfTimeShaders": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": false,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentAdjacency": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicCapabilities": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": false,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": false,
+      "effectUsesInstruction": true,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMicrophoneV2": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": false,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": true,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneNormal": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesQPL": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpaceSetup": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": false,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": false,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": false,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": false,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "179.0",
+      "externalTexturesWhitelistedDomains": [],
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 10,
+      "facewaveMinVersion": 1,
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "manuallyEnabledItemsIds": null,
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "optionalCapabilityItemIds": [],
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 1,
+      "touchGesturesSupportsLongPress": true,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": true,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": false,
+      "touchGesturesSupportsTap": false,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:9FA96821-1C95-4FFE-BA58-8298BA3434A1",
+      "basicCompressionAccuracy": "best",
+      "basicCompressionFormat": 39,
+      "etcCompressionFormat": 9,
+      "pvrCompressionAccuracy": "best",
+      "pvrCompressionFormat": 29,
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:36148-ca50e312-2dfe-44c7-bf4e-096f29c10d5e",
+          "accuracy": "best",
+          "compressionFormat": 39,
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:36149-ca50e312-2dfe-44c7-bf4e-096f29c10d5e",
+          "accuracy": "best",
+          "compressionFormat": 29,
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:36150-ca50e312-2dfe-44c7-bf4e-096f29c10d5e",
+          "compressionFormat": 9,
+          "method": "fastest",
+          "targetFormat": 2
+        }
+      ]
+    },
+    {
+      "modelName": "textures",
+      "identifier": "textures:D76A0ACC-4D1B-4A0F-B362-1D002D272474",
+      "children": [
+        {
+          "sectionFileLocation": "textures/clownNose_01.texture"
+        }
+      ]
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:EBBFCA3F-415A-4364-982D-3186732481A1",
+      "targetUseCases": [
+        "STORIES"
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:39180-ca50e312-2dfe-44c7-bf4e-096f29c10d5e"
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:101352-e0f6ef2c-0477-40bb-b363-ddf1261e242e"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:70056-a650ef54-124e-4355-802a-0f358a17d70a"
+    },
+    {
+      "modelName": "input_mappings_model",
+      "identifier": "input_mappings_model:70060-a650ef54-124e-4355-802a-0f358a17d70a"
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:73600-a650ef54-124e-4355-802a-0f358a17d70a"
+    }
+  ]
+}
